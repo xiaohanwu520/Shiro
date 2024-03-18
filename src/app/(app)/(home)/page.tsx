@@ -343,7 +343,7 @@ const NoteScreen = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={softBouncePreset}
             >
-              看看我的近况，我的所思所想、所作所为
+              看看我的近况，我的所思所想、所作所为。
             </m.h3>
             <Link href={routeBuilder(Routes.Note, { id: theLast.nid })}>
               <m.div

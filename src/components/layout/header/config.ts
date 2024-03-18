@@ -9,7 +9,6 @@ import {
   FaSolidFeatherAlt,
   FaSolidHistory,
   FaSolidUserFriends,
-  FaSolidSubway,
   IcTwotoneSignpost,
   IonBook,
   MdiFlask,
