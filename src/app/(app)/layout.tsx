@@ -198,7 +198,7 @@ export default async function RootLayout(props: PropsWithChildren) {
     </ClerkProvider>
   )
 }
-
+<link rel="stylesheet" href="public\style\master.css" />
 const SayHi = () => {
   return (
     <script

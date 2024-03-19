@@ -1,0 +1,19 @@
+body {
+    cursor: url("https://assets.tnxg.whitenuo.cn/images/cursor/cursor.png"), auto;
+}
+
+a {
+    cursor: url("https://assets.tnxg.whitenuo.cn/images/cursor/pointer.png"), auto;
+}
+
+a:hover {
+    cursor: url("https://assets.tnxg.whitenuo.cn/images/cursor/pointer.png"), auto;
+}
+
+.hty-icon-button {
+    cursor: url("https://assets.tnxg.whitenuo.cn/images/cursor/pointer.png"), pointer;
+}
+
+input {
+    cursor: url("https://assets.tnxg.whitenuo.cn/images/cursor/pointer.png"), auto;
+}
