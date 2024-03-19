@@ -200,7 +200,7 @@ const List = () => {
                   className="rounded-full ring-2 ring-slate-200 dark:ring-zinc-800"
                 />
               </div>
-              <div>
+              <div class="Comment_comment__message__vO6iH relative inline-block rounded-xl px-2 py-1 text-zinc-800 dark:text-zinc-200 rounded-bl-sm bg-zinc-600/5 dark:bg-zinc-500/20 max-w-[calc(100%-3rem)]">
                 <div className="flex items-center space-x-2">
                   <span className="text-lg font-medium">{owner.name}</span>
 
