@@ -1,19 +1,19 @@
 body {
-    cursor: url("https://assets.tnxg.whitenuo.cn/images/cursor/cursor.png"), auto;
+    cursor: url("https://server.xiaozhengyang.com:4433/files/reporter-assets/normal.cur"), auto;
 }
 
 a {
-    cursor: url("https://assets.tnxg.whitenuo.cn/images/cursor/pointer.png"), auto;
+    cursor: url("https://server.xiaozhengyang.com:4433/files/reporter-assets/link.cur"), auto;
 }
 
 a:hover {
-    cursor: url("https://assets.tnxg.whitenuo.cn/images/cursor/pointer.png"), auto;
+    cursor: url("https://server.xiaozhengyang.com:4433/files/reporter-assets/link.cur"), auto;
 }
 
 .hty-icon-button {
-    cursor: url("https://assets.tnxg.whitenuo.cn/images/cursor/pointer.png"), pointer;
+    cursor: url("https://server.xiaozhengyang.com:4433/files/reporter-assets/link.cur"), pointer;
 }
 
 input {
-    cursor: url("https://assets.tnxg.whitenuo.cn/images/cursor/pointer.png"), auto;
+    cursor: url("https://server.xiaozhengyang.com:4433/files/reporter-assets/link.cur"), auto;
 }
