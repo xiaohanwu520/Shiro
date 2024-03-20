@@ -17,3 +17,11 @@ a:hover {
 input {
     cursor: url("https://server.xiaozhengyang.com:4433/files/reporter-assets/link.cur"), auto;
 }
+
+cursor-pointer {
+    cursor: url("https://server.xiaozhengyang.com:4433/files/reporter-assets/link.cur"), auto;
+}
+
+button  {
+    cursor: url("https://server.xiaozhengyang.com:4433/files/reporter-assets/link.cur"), auto;
+}
