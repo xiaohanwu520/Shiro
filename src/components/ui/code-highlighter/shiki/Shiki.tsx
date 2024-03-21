@@ -143,7 +143,7 @@ export const ShikiHighLighter: FC<Props> = (props) => {
             'absolute right-2 top-2 z-[1] flex rounded p-2 text-xs center',
             'rounded-md border border-accent/5 bg-accent/80 p-1.5 text-white backdrop-blur duration-200',
             'opacity-0 group-hover:opacity-100',
-            filename && 'top-12',
+            filename && '!top-12',
           )}
         >
           <i className="icon-[mingcute--copy-2-fill] h-4 w-4" />
@@ -165,8 +165,8 @@ export const ShikiHighLighter: FC<Props> = (props) => {
             }
           >
             {renderedHtml ? undefined : (
-              <pre className="bg-transparent">
-                <code className="px-4">{value}</code>
+              <pre className="bg-transparent px-4">
+                <code className="!px-4">{value}</code>
               </pre>
             )}
           </div>
