@@ -200,7 +200,7 @@ const List = () => {
                   className="rounded-full ring-2 ring-slate-200 dark:ring-zinc-800"
                 />
               </div>
-              <div className="Comment_comment__message__vO6iH relative inline-block rounded-xl px-2 py-1 text-zinc-800 dark:text-zinc-200 rounded-bl-sm bg-zinc-600/5 dark:bg-zinc-500/20 max-w-[calc(100%-3rem)]">
+              <div>
                 <div className="flex items-center space-x-2">
                   <span className="text-lg font-medium">{owner.name}</span>
 
@@ -209,7 +209,8 @@ const List = () => {
                   </span>
                 </div>
 
-                <div className="my-4 leading-relaxed">
+                {/* <div className="my-4 leading-relaxed"> */}
+                <div className="Comment_comment__message__vO6iH relative inline-block rounded-xl px-2 py-1 text-zinc-800 dark:text-zinc-200 rounded-bl-sm bg-zinc-600/5 dark:bg-zinc-500/20 max-w-[calc(100%-3rem)]">
                   <Markdown allowsScript>{item.content}</Markdown>
 
                   {!!item.ref && (
