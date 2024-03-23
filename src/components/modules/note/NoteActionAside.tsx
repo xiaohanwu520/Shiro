@@ -10,7 +10,7 @@ import { useForceUpdate } from '~/hooks/common/use-force-update'
 import { useIsClient } from '~/hooks/common/use-is-client'
 import { isLikedBefore, setLikeId } from '~/lib/cookie'
 import { clsxm } from '~/lib/helper'
-import { apiClient } from '~/lib/request'
+import { apiClient } from '~/lib/request.new'
 import { routeBuilder, Routes } from '~/lib/route-builder'
 import { toast } from '~/lib/toast'
 import { urlBuilder } from '~/lib/url-builder'
@@ -147,7 +147,7 @@ const LikeButton = () => {
         }}
       />
       {!!likeCount && (
-        <span className="absolute bottom-0 right-0 translate-x-[10px] transform text-[10px]">
+        <span className="absolute bottom-0 right-0 translate-x-[10px] text-[10px]">
           <NumberSmoothTransition>{likeCount}</NumberSmoothTransition>
         </span>
       )}

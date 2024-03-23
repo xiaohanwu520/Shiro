@@ -13,7 +13,7 @@ import {
 import { StyledButton } from '~/components/ui/button'
 import { FloatPopover } from '~/components/ui/float-popover'
 import { debounce } from '~/lib/lodash'
-import { apiClient } from '~/lib/request'
+import { apiClient } from '~/lib/request.new'
 import { usePageScrollLocation } from '~/providers/root/page-scroll-info-provider'
 import { queries } from '~/queries/definition'
 import { socketClient } from '~/socket'
@@ -78,7 +78,7 @@ const ReadPresenceTimeline = () => {
   const activityPresence = useActivityPresenceBySessionId(sessionId)
 
   return (
-    <div className="fixed bottom-0 left-0 top-0">
+    <div className="fixed inset-y-0 left-0">
       <FloatPopover
         asChild
         placement="right"

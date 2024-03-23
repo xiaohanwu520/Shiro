@@ -6,7 +6,7 @@ import { XLogIcon } from '~/components/icons/platform/XLogIcon'
 import { LabelSwitch } from '~/components/ui/switch'
 import { PublishEvent } from '~/events'
 import { RefetchEvent } from '~/events/refetch'
-import { apiClient } from '~/lib/request'
+import { apiClient } from '~/lib/request.new'
 
 import { syncToXlogAtom } from '../writing/atoms'
 import { CrossBellConnector } from './legacy'
@@ -42,7 +42,7 @@ export const XlogSwitch = () => {
       onCheckedChange={setChecked}
     >
       <span className="flex items-center gap-2">
-        同步到 XLog <XLogIcon className="h-5 w-5" />
+        同步到 XLog <XLogIcon className="size-5" />
       </span>
       <PublishEventSubscriber />
     </LabelSwitch>

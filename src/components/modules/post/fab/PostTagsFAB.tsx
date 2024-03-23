@@ -11,7 +11,7 @@ import { TimelineList } from '~/components/ui/list/TimelineList'
 import { Loading } from '~/components/ui/loading'
 import { useModalStack } from '~/components/ui/modal'
 import { Tag } from '~/components/ui/tag/Tag'
-import { apiClient } from '~/lib/request'
+import { apiClient } from '~/lib/request.new'
 import { routeBuilder, Routes } from '~/lib/route-builder'
 
 export const PostTagsFAB = () => {
@@ -101,7 +101,7 @@ export const TagDetailModal = (props: { name: string }) => {
               className="flex items-center justify-between"
               data-id={item.id}
             >
-              <span className="flex min-w-0 flex-shrink items-center">
+              <span className="flex min-w-0 shrink items-center">
                 <span className="mr-2 inline-block tabular-nums">
                   {Intl.DateTimeFormat('en-us', {
                     month: '2-digit',

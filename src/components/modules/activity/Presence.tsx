@@ -36,7 +36,7 @@ import { useReadPercent } from '~/hooks/shared/use-read-percent'
 import { getColorScheme, stringToHue } from '~/lib/color'
 import { formatSeconds } from '~/lib/datetime'
 import { debounce, uniq } from '~/lib/lodash'
-import { apiClient } from '~/lib/request'
+import { apiClient } from '~/lib/request.new'
 import { springScrollTo } from '~/lib/scroller'
 import {
   useWrappedElementPosition,
@@ -134,7 +134,7 @@ const ReadPresenceTimeline = () => {
 
   return (
     <RootPortal>
-      <div className="group fixed bottom-20 left-0 top-20 z-[3] w-8">
+      <div className="group fixed inset-y-20 left-0 z-[3] w-8">
         {uniq(activityPresenceIdsCurrentRoom).map((identity) => {
           return (
             <TimelineItem
