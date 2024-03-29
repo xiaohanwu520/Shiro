@@ -77,11 +77,11 @@ export const headerMenuConfig: IHeaderMenu[] = [
     ],
   },
 
-  // {
-  //   title: '相册',
-  //   icon: h(FaSolidUserFriends),
-  //   path: '/gallery',
-  // },
+  {
+    title: '相册',
+    icon: h(FaSolidUserFriends),
+    path: '/gallery',
+  },
 
   {
     title: '友链',
@@ -99,11 +99,11 @@ export const headerMenuConfig: IHeaderMenu[] = [
         icon: h(MdiLightbulbOn20),
         path: '/thinking',
       },
-      // {
-      //   title: '项目',
-      //   icon: h(MdiFlask),
-      //   path: '/projects',
-      // },
+      {
+        title: '项目',
+        icon: h(MdiFlask),
+        path: '/projects',
+      },
       {
         title: '一言',
         path: '/says',
@@ -111,7 +111,7 @@ export const headerMenuConfig: IHeaderMenu[] = [
       }
     ],
   },
-
+  
   {
     title: '🚇开往',
     icon: h(RMixPlanet),
