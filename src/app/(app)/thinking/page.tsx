@@ -209,7 +209,6 @@ const List = () => {
                   </span>
                 </div>
 
-                {/* <div className="my-4 leading-relaxed"> */}
                 <div
                 className={clsx(
                   'relative inline-block rounded-xl px-2 py-1 text-zinc-800 dark:text-zinc-200',
