@@ -2,7 +2,7 @@ import '../styles/index.css'
 
 import type { PropsWithChildren } from 'react'
 
-import { BrowserSupport } from './browser-support'
+// import { BrowserSupport } from './browser-support'
 import { init } from './init'
 import { InitInClient } from './InitInClient'
 
