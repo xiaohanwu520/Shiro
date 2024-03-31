@@ -165,6 +165,7 @@ export default async function RootLayout(props: PropsWithChildren) {
               type="image/x-icon"
               media="(prefers-color-scheme: light)"
             />
+            <link rel="stylesheet" href="style\master.css" />
           </head>
           <body
             className={`${sansFont.variable} ${serifFont.variable} m-0 h-full p-0 font-sans`}

@@ -76,7 +76,7 @@ export default function Page() {
   return (
     <div>
       <header className="prose prose-p:my-2">
-        <h1>朋友们</h1>
+        <h1>互联网海洋的鱼儿🐟</h1>
         <h3>海内存知己，天涯若比邻</h3>
       </header>
 
