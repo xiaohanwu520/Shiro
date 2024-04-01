@@ -188,19 +188,20 @@ export default async function RootLayout(props: PropsWithChildren) {
             <ToastContainer />
             <ScrollTop />
             <div className="fixed inset-y-0 right-0 w-[var(--removed-body-scroll-bar-size)] bg-base-100" />
-          </body>
-        </html>
-      </AppFeatureProvider>
-    </ClerkProvider>
-  )
-}
-<script type="text/javascript">
+            <script type="text/javascript">
     (function(c,l,a,r,i,t,y){
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
         t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "lptlvordgi");
 </script>
+          </body>
+        </html>
+      </AppFeatureProvider>
+    </ClerkProvider>
+  )
+}
+
 const SayHi = () => {
   return (
     <script
