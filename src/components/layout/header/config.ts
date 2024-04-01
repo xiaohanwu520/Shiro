@@ -99,11 +99,11 @@ export const headerMenuConfig: IHeaderMenu[] = [
         icon: h(MdiLightbulbOn20),
         path: '/thinking',
       },
-      // {
-      //   title: '项目',
-      //   icon: h(MdiFlask),
-      //   path: '/projects',
-      // },
+      {
+        title: '项目',
+        icon: h(MdiFlask),
+        path: '/projects',
+      },
       {
         title: '一言',
         path: '/says',
